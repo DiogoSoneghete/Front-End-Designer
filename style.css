@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px
+}
+
+#Starbucks{
+    width: 340px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa_texto{
+    width: 600px;
+}
+
+.titulo{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#destaque{
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.paragrafo{
+    font-size: 16px;
+}
+
+#comprar{
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#comprar:hover{
+    background: #014d35;
+}
+
+.caixa_imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+
+.botao_menu{
+    background: none;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao_menu:hover{
+    transform: translateY(-30px);
+}
